@@ -129,3 +129,43 @@ print('\n')
 print(tea_varieties)
 
 
+#STACK practice
+tea_varieties = ["Black", "Green", "Oolong", "White", "Ginger", "Mint"]
+last= (tea_varieties.pop())
+print("\nPop function remove last element of list= ",last,'\n')
+print(tea_varieties)
+print(f"\nNow you see {last} tea is remove this list\n\n")
+
+tea_varieties.remove("Green")
+print("\nremove function remove specific element what I want to remove of list\n")
+print(tea_varieties)
+print(f"\nNow you see Green tea is remove this list\n\n")
+
+print("\ninsert function insert a element what I want to insert and which position of list\n")
+tea_varieties.insert(1,"Green") #----(1,"Green") here 1 is index position and "Green" is what you want to insert in this list
+print(tea_varieties)
+print(f"\nNow you see Green tea is add this list\n\n\n\n")
+
+
+#Memory references 
+tea_varieties_1 = tea_varieties
+print(tea_varieties_1,'\n')
+tea_varieties.append("Lemon")
+print("List 1 after append= ",tea_varieties)
+print("List 2 after append= ",tea_varieties_1,'\n\n')
+#here print same value and tea_varieties_1 and tea_varieties reference same list in memory
+
+tea_varieties_copy = tea_varieties.copy()
+print("List 2 copy before pop= ",tea_varieties_copy,'\n')
+tea_varieties.pop()
+print("List 1 after pop= ",tea_varieties)
+print("List 2 copy afer pop= ",tea_varieties_copy,'\n')
+print("You see list 1 after pop change but List 2 not change after list 1 pop\n\n\n\n")
+#here print same value but tea_varieties_copy and tea_varieties reference different list in memory 
+#tea_varieties this list make a copy help of copy function and assign it in tea_varieties_copy
+
+
+
+
+
+
