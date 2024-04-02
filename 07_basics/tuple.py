@@ -36,6 +36,15 @@ print(more_tea.count("Herbal"))
 print(more_tea.count("Suger Free"))
 print(more_tea.count("Herb"),'\n\n')
 
+print(tea_types)
+(black, green, oolomg, white, masala) = tea_types
+print(black)
+print(type(black))
+print(oolomg)
+print(type(oolomg),'\n\n')
+
+
+
 
 
 
