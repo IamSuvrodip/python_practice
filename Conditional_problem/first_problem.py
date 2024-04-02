@@ -3,7 +3,7 @@
 age= int(input ("Enter Your Age= "))
 print(age)
 
-if age < 14:
+if age < 13:
     print("You are Child..")
 elif age < 20:
     print("You are Teenager..")
