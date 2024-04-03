@@ -15,5 +15,17 @@ print("Your percentage is: ",round(per,2),'\n')
 
 
 
+if per>100:
+    print("Wrong grading")
+elif per >= 90:
+    print("Grade='A'\tPASS ")
+elif per >= 80:
+    print("Grade='B'\tPASS ")
+elif per >= 70:
+    print("Grade='C'\tPASS ")
+elif per >= 60:
+    print("Grade='D'\tPASS ")
+else:
+    print("Grade='F'\tFAIL ")
 
 
