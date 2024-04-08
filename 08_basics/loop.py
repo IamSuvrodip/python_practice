@@ -4,4 +4,7 @@
 
 # __next__ ---------> response
 
-#
+# iter()------>tool
+# next()
+# next()
+# next()
