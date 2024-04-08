@@ -1,4 +1,5 @@
-file1 = open('basics.py')
+file1 = open("08_basics iteration tools/file.txt")
 print(file1.readline())
-file1.readline()
-file1.readline()
+print(file1.readline())
+print(file1.readline())
+print(file1.readline())
