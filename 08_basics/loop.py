@@ -1,6 +1,7 @@
 # Behind the loop 
 # loop and itretion same
 # (for,comprehension,map)-------->tools of itretion
+# iterable objects(lists,file)
 
 # __next__ ---------> response
 
@@ -8,3 +9,4 @@
 # next()
 # next()
 # next()
+
