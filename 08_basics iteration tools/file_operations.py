@@ -27,14 +27,6 @@ while True:
     print(line, end='')
 print('\n\n')
 
-name = "suvrodip"
-if not name:
-    print("rudronil")
-else:
-    print(name)
-print('\n\n')
-
-
 
 
 
