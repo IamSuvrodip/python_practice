@@ -36,4 +36,30 @@ print(I.__next__())
 print(I.__next__())
 print('\n\n')
 
+my_list1 = [1, 2, 3, 4, 5, 6]
+print(iter(my_list1) is my_list1)
+print('\n\n')
+
+
+dict = {'a':1, 'b':2 }
+for item in dict.items():
+    print(item)
+for key in dict.keys():
+    print(key)
+for value in dict.values():
+    print(value)
+print('\n')
+I = iter(dict)
+print(I) #------><dict_keyiterator object at 0x7ff08c9759e0>
+print('\n')
+
+print(next(I))
+print(next(I))
+print('\n')
+
+print(range(5))
+
+
+
+
 

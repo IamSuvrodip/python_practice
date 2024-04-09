@@ -28,6 +28,11 @@ while True:
 print('\n\n')
 
 
+file1 = open("08_basics iteration tools/file.txt")
+print(iter(file1),'\n')
+print(iter(file1) is file1,'\n')
+
+
 
 
 
