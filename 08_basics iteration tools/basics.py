@@ -29,7 +29,11 @@ my_list = [1, 2, 3, 4, 5]  #----->list
 I = iter(my_list)
 print(I) #-----------><list_iterator object at ---->0x7f33c6b5ff70<--- THIS IS MEMOEY LOCATION first memory referance
 print(I.__next__())
+print(I) #-----------><list_iterator object at ---->0x7f33c6b5ff70<--- THIS IS SAME ADDRESS BECAUSE THIS REFERANCE NOT CHANGE
 print(I.__next__())
 print(I.__next__())
 print(I.__next__())
 print(I.__next__())
+print('\n\n')
+
+
