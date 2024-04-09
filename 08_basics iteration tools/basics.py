@@ -58,6 +58,14 @@ print(next(I))
 print('\n')
 
 print(range(5))
+R = range(5)
+I = iter(R)
+print(next(I))
+print(next(I))
+print(next(I))
+print(next(I))
+print(next(I))
+
 
 
 
