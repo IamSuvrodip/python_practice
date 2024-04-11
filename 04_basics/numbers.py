@@ -72,6 +72,9 @@ print("\n")
 print(math.trunc(2.8))     # 2 towords 0
 print(math.trunc(-2.8))     # 2 towords 0
 
+x = 3.1415
+print(round(x,2))
+
 
 print("\n")
 print(2 + 1j)
