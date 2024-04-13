@@ -11,12 +11,22 @@ class Car:
     
     def fullname(self):
         return f"{self.brand} {self.model}"
+    
+    def fuel_type(self):
+        return "Petrol or Diesel"
 
 class ElectricCar(Car): #-----------> ElectricCar inherits all properties of Car
     def __init__(self, brand, model, battery_size):
         super().__init__(brand, model)
         self.battery_size = battery_size
 
-my_car = ElectricCar("Tesla", " Model:-S", "85KWH")
-print(my_car.fullname())
-print(my_car.brand,my_car.model,my_car.battery_size)
+    def fuel_type(self):
+        return "Electric Charge"
+
+my_Ecar = ElectricCar("Tesla", " Model:-S", "85KWH")
+print(my_Ecar.fullname())
+print(my_Ecar.brand,my_Ecar.model,my_Ecar.battery_size)
+print(my_Ecar.fuel_type(),'\n')
+
+my_car = Car("Tata", "Safari")
+print(my_car.fuel_type())
