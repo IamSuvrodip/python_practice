@@ -17,4 +17,12 @@ print(name)
 username()
 print('\n')
 
+x = 99
+def num(y):
+    z = x + y
+    return z
+result = num(1)
+print(result,'\n')
+
+
 
