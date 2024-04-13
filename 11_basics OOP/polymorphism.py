@@ -30,3 +30,4 @@ print(my_Ecar.fuel_type(),'\n')
 
 my_car = Car("Tata", "Safari")
 print(my_car.fuel_type())
+
