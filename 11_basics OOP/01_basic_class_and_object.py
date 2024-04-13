@@ -9,3 +9,4 @@ class Car:
         self.model = model
 my_car = Car("Lmborgini", "New") # this Car and upar class bala Car connect karne keliye self keyword likhte hain
 print(my_car.brand,my_car.model)
+
