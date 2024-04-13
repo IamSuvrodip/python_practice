@@ -64,6 +64,21 @@ res = num8()
 res()
 print('\n')
 
+#closer #factory function
+def fun1(num):
+    def actual(x):
+        return x ** num
+    return actual
+f = fun1(2)
+g = fun1(3)
+
+print(f)
+print(g)
+
+print(f(5))
+print(g(5))
+
+
 
 
 
