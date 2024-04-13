@@ -39,6 +39,35 @@ def num3():
 num1()
 print(x,'\n')
 
+x = 99
+def num4():
+    x = 88
+    def num5():
+        print(x)
+    num5()
+num4()
+
+def num6():
+    #x = 88
+    def num7():
+        print(x)
+    num7()
+num6()
+print('\n')
+
+def num8():
+    x = 88
+    def num9():
+        print(x)
+    return num9
+res = num8()
+res()
+print('\n')
+
+
+
+
+
 
 
 
