@@ -25,4 +25,21 @@ result = num(1)
 print(result,'\n')
 
 
+x = 99  #--------->global
+def num1():
+    x = 88#-------->local
+    print(x)
+num1()
+print(x,'\n')
+
+x = 50
+def num3():
+    global x #------> make it local to global
+    x = 10
+num1()
+print(x,'\n')
+
+
+
+
 
