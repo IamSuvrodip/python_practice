@@ -8,13 +8,13 @@ class Payment:
         self.__money = money
 
     def get_platform(self):
-        return "Amount is: " + self.money + ".00 rupee"
+        return "Amount is: " + self.__money + ".00 rupee"
 
     def fulldetails(self):
         return f"{self.platform} {self.__money}"
     
 my_payment = Payment("Google Pay", "500")
 print(my_payment.platform)
-print(my_payment.__money)
+print(my_payment._Payment__money)#--------> covert into public
 print(my_payment.fulldetails())
-print(my_payment.get_platform())
+print(my_payment.get_platform())# --------> public using _get function
