@@ -15,6 +15,15 @@ class ElectricCar(Car): #-----------> ElectricCar inherits all properties of Car
         super().__init__(brand, model)
         self.battery_size = battery_size
 
-my_car = ElectricCar("Tesla", " Model:-S", "85KWH")
-print(my_car.fullname())
-print(my_car.brand,my_car.model,my_car.battery_size)
+my_tesla = ElectricCar("Tesla", " Model:-S", "85KWH")
+
+print(isinstance(my_tesla, Car))
+print(isinstance(my_tesla, ElectricCar))
+
+
+# print(my_tesla.fullname())
+# print(my_tesla.brand,my_tesla.model,my_tesla.battery_size,'\n')
+
+# my_car = Car("Lamborgini", "Urus")
+# print(my_car.fullname())
+# print(my_car.brand,my_car.model)
