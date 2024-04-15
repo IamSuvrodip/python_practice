@@ -1,6 +1,8 @@
 # timing_function
 # Write a decorator that measures the time a funtion takes to execute
 
+#timer ko tol banana hain matlab koibi functions ischee hokei gujre to decorate kardo us function ko (@timer matlab kisse gujarna hain)
+
 import time
 
 def timer(func):
@@ -8,9 +10,14 @@ def timer(func):
         start = time.time()
         result = func(*args, **kwargs)
         end = time.time()
-        print(f"{func.__name_z_} ran in {end - start} time")
+        print(f"{func.__name__} ran in {end - start} time") #-------->formated string
         return result
     return wrapper
 
-def example_functon():
+@timer
+def example_functon(n):
+    time.sleep(n)
+
+example_functon(3)
+
     
