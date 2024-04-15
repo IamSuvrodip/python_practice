@@ -3,6 +3,8 @@
 
 #timer ko tol banana hain matlab koibi functions ischee hokei gujre to decorate kardo us function ko (@timer matlab kisse gujarna hain)
 
+#func.__name__ for ptint function name
+
 import time
 
 def timer(func):
