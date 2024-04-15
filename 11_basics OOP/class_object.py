@@ -2,7 +2,7 @@
 # create a Car class with attributes like brand and model. 
 # Then create an instance of this class.
 # there self and in java this keyword same
-
+# __ this underscore underscore is name is (dunder)
 class Car:
     def __init__(self, brand, model): # ehape init likhunga to hum Car() k under parameter de sakte hain
         self.brand = brand
