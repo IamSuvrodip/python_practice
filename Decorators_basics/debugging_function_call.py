@@ -14,7 +14,7 @@ def debug(func):
 
 @debug
 def hello():
-    print("hello\n")
+    print("Hi.. Rudro\n")
 
 
 @debug
